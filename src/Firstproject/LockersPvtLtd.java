@@ -19,7 +19,7 @@ public class LockersPvtLtd {
 	
 	public static boolean isNumeric(String string) {
 	    String regex = "[0-9]+[\\.]?[0-9]*";
-	    return Pattern.matches(regex, string);
+	    return Pattern.matches(regex, string); 
 	}
 	
 	public void addFile() throws IOException
